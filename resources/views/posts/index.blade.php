@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<head>
-    <title></title>
-</head>
-<body>
-
-</body>
-<html>
+@extends ('layout')
 
 
-</html>
+@section('footer')
+
+@endsection
