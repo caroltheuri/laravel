@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 use App\Post;
-//import :App\Post;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
@@ -21,7 +20,7 @@ public function create(){
     $post= new Post;
     $post->title=request('title');
     $post->content=request('content');
-
+        $post->user_id=request('user_id');
     $post->save();
 
     return redirect ('/');
