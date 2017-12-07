@@ -22,7 +22,7 @@
 <body>
 
 @include('layouts.navbar')
-
+<h1 style="text-align: center;"><strong>Software Engineering Blogs</strong></h1><hr>
 @yield('content')
 
 @include('layouts.footer')

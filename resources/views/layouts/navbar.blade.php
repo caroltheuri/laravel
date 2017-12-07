@@ -1,19 +1,19 @@
-<header>
-    <div class="blog-masthead">
-        <div class="container">
-            <nav class="nav">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">New features</a>
-                <a class="nav-link" href="#">Press</a>
-                <a class="nav-link" href="#">New hires</a>
-                <a class="nav-link" href="#">About</a>
-            </nav>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">CarosB</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">View All<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
     </div>
-
-    <div class="blog-header">
-        <div class="container">
-            <h1>Caroline's daily blogs</h1>
-        </div>
-    </div>
-</header>
+</nav>
